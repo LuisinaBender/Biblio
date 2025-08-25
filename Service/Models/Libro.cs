@@ -19,6 +19,11 @@ namespace Service
         [Column(TypeName ="text")]
         public string Sinopsis { get; set; } = string.Empty;
 
+        public override string ToString()
+        {
+            return Titulo;
+        }
+        public bool IsDeleted { get; set; } = false;
 
     }
 }

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{6ED2E765-EC17-4462-AECD-9CCC02A8F00E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{B035FCFE-62B5-429E-807C-34FF7E3F5C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiblioTestProject", "BiblioTestProject\BiblioTestProject.csproj", "{D8DD625B-46FC-4707-A748-9C5D70AC8174}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B035FCFE-62B5-429E-807C-34FF7E3F5C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B035FCFE-62B5-429E-807C-34FF7E3F5C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B035FCFE-62B5-429E-807C-34FF7E3F5C17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DD625B-46FC-4707-A748-9C5D70AC8174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DD625B-46FC-4707-A748-9C5D70AC8174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DD625B-46FC-4707-A748-9C5D70AC8174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DD625B-46FC-4707-A748-9C5D70AC8174}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
